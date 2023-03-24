@@ -1,0 +1,285 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+.app-container{
+    background-color: #fafafa;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 25px;
+
+}
+.heading1{
+    font-family: poppins;
+    font-weight: 200;
+    font-size:18px;
+    /* text-align: center; */
+    
+}
+.heading2{
+    font-family: poppins;
+    font-weight: 600;
+    font-size:18px;
+    /* text-align: center; */
+}
+.para{
+    font-family: poppins;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size:12px;
+    margin-top: 15px;
+    width:80%;
+
+}
+.each-card1{
+    height: 200px;
+    width:200px;
+    border-radius: 10px;
+    background-color: white;
+    margin:0 15px 25px 0;
+    padding:25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top:5px solid #45d3d3;
+
+}
+.each-card2{
+    height: 200px;
+    width:200px;
+    border-radius: 10px;
+    background-color: white;
+    margin:0 15px 25px 0;
+    padding:25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top:5px solid #ea5353;
+
+}
+.each-card3{
+    height: 200px;
+    width:200px;
+    border-radius: 10px;
+    background-color: white;
+    margin:0 15px 25px 0;
+    padding:25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top:5px solid #fcaf4a;
+}
+.each-card4{
+    height: 200px;
+    width:200px;
+    border-radius: 10px;
+    background-color: white;
+    margin:0 15px 25px 0;
+    padding:25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top:5px solid #549ef2;
+}
+
+
+
+
+.card-heading{
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 15px;
+  
+
+}
+
+.card-para{
+    font-family: poppins;
+    font-size:12px;
+}
+.image{
+    align-self: flex-end;
+    justify-content: flex-end;
+    margin: 0 20px 20px 0; 
+    height: 38px;
+    width:38px;
+}
+.middle-container{
+    display:none;
+    
+}
+
+
+@media screen and (min-width: 768px) {
+    
+    .cards-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        /* height: 100vh; */
+        width:650px;    
+        
+        
+            
+    }
+    
+
+
+}
+
+
+/* Tab mode  */
+
+@media screen and (min-width: 768px) {
+    
+   
+    .heading1{
+        
+        font-size:25px;
+        /* text-align: center; */
+        
+    }
+
+    .heading2{
+       
+        font-size:25px;
+        
+    }
+    .para{
+        
+        font-size:20px;
+        width:60%;
+       
+    
+    }
+    .each-card1{
+        height: 220px;
+        width:220px;
+    }
+    .each-card2{
+        height: 220px;
+        width:220px;
+    }
+    .each-card3{
+        height: 220px;
+        width:220px;
+    }
+    .each-card4{
+        height: 220px;
+        width:220px;
+    }
+    .image{
+        height: 45px;
+        width:45px;
+    }
+    .card-heading{
+       font-size: 20px;
+      
+    
+    }
+    
+    .card-para{
+        font-size:12px;
+    }
+    .para{
+       
+        margin-bottom: 54px;
+       
+    
+    }
+
+    .middle-container{
+        display:none;
+    }
+
+
+    
+    
+
+
+}
+
+
+
+/*  Desktop mode */
+
+@media screen and (min-width:1024px){
+    .middle-container{
+        display:flex;
+        flex-direction: column;
+    }
+    .heading1{
+        
+        font-size:30px;
+        /* text-align: center; */
+        
+    }
+
+    .heading2{
+       
+        font-size:30px;
+        
+    }
+    .para{
+        
+        font-size:20px;
+        width:70%;
+       
+    
+    }
+    .each-card1{
+        height: 320px;
+        width:320px;
+    }
+    .each-card2{
+        height: 320px;
+        width:320px;
+    }
+    .each-card3{
+        height: 320px;
+        width:320px;
+    }
+    .each-card4{
+        height: 320px;
+        width:320px;
+    }
+    .image{
+        height: 70px;
+        width:70px;
+    }
+    .card-heading{
+        font-size: 28px;
+        
+       
+     
+     }
+     .card-para{
+        font-size:20px;
+    }
+
+    .para{
+       
+        margin-bottom: 54px;
+       
+    
+    }.cards-container{
+        
+       width:100%;    
+        
+        
+            
+    }
+    .large-noview{
+        display:none;
+    }
+}
